@@ -1,0 +1,41 @@
+Certainly! Below is an example README file format for the Marketing A/B testing dataset:
+
+# Marketing A/B Testing Dataset
+
+## Overview
+
+Marketing companies often run A/B tests to determine the effectiveness of their campaigns. In an A/B test, different versions of a variable (such as a webpage, page element, or banner) are shown to different segments of people simultaneously to evaluate their impact on business metrics.
+
+This dataset aims to answer two key questions:
+
+1. Would the campaign be successful?
+2. If the campaign was successful, how much of that success could be attributed to the ads?
+
+The dataset provides insights into user behavior, including whether they were exposed to ads or a public service announcement (PSA), whether they converted (i.e., bought the product), and other relevant metrics.
+
+## Data Dictionary
+
+- **Index**: Row index
+- **user id**: Unique user ID
+- **test group**: Indicates whether the user saw the advertisement ("ad") or the public service announcement ("psa")
+- **converted**: Boolean indicating whether the user converted (True) or not (False)
+- **total ads**: Number of ads seen by the user
+- **most ads day**: Day on which the user saw the highest number of ads
+- **most ads hour**: Hour of the day when the user saw the highest number of ads
+
+## Objective
+
+The objective of this dataset is to analyze user groups, determine the effectiveness of the ads, estimate the potential revenue generated from the ads, and assess whether the difference between the experimental (ad) and control (PSA) groups is statistically significant.
+
+## Usage
+
+This dataset can be used for various analyses, including:
+
+- Evaluating the effectiveness of marketing campaigns
+- Understanding user behavior and preferences
+- Estimating the impact of ads on conversion rates
+- Conducting statistical tests to compare experimental and control groups
+
+## License
+
+This dataset is provided under Kaggle and can be used for analysis.
